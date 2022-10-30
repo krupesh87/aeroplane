@@ -2,15 +2,23 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 export default function Navbar() {
   return (
-    <nav className="nav">
-      <Link to="/" className="site-title">
-        Site Name
+    <>
+
+      <nav className="navbar navbar-expand-lg bg-dark nav ">
+        <div class="container-fluid">
+        <Link to="/" className=" navbar-brand ">
+           Home
       </Link>
-      <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <CustomLink to="/contact">Contact</CustomLink>
         <CustomLink to="/about">About</CustomLink>
       </ul>
-    </nav>
+          </div>
+        
+      </nav>
+
+    </>
+
   )
 }
 

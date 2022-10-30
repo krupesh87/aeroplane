@@ -23,6 +23,9 @@ body {
 
 .site-title {
   font-size: 2rem;
+  left: 0;
+  right: 0;
+  margin: 12px;
 }
 
 .nav ul {
@@ -31,6 +34,11 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
+  left: 0;
+  right: 0;
+
+  flex-direction: row;
+  align-items: center;
 }
 
 .nav a {
@@ -43,7 +51,7 @@ body {
 }
 
 .nav li.active {
-  background-color: #555;
+  background-color: rgb(72, 211, 211);
 }
 
 .nav li:hover {
