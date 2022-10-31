@@ -4,18 +4,15 @@ export default function Navbar() {
   return (
     <>
 
-      <nav className="navbar navbar-expand-lg bg-dark nav ">
-        <div class="container-fluid">
+      <b><h1 className="text-white  mt-2">Flight Delay Info</h1></b>
+        <div class="container-fluid text-center site-title " >
         <Link to="/" className=" navbar-brand ">
            Home
       </Link>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <CustomLink to="/contact">Contact</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
-      </ul>
+     
           </div>
         
-      </nav>
+      
 
     </>
 
