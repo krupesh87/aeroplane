@@ -1,9 +1,14 @@
 * {
   box-sizing: border-box;
+ 
 }
 
 body {
   margin: 0;
+  background-image: url(/src/Images/Picsart_22-10-31_22-47-54-176.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10;
 }
 
 .container {
